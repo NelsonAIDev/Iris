@@ -30,7 +30,8 @@ Este proyecto presenta un clasificador automático de especies de Iris, utilizan
 
 Para ejecutar la aplicación, simplemente corre el siguiente comando:
 ```bash
-python main.py
+python main.py 
+```
 Esto abrirá una interfaz de Gradio en tu navegador donde podrás ajustar los valores de longitud y anchura de sépalos y pétalos para predecir la especie de la flor.
 
 ## Descripción de los Archivos
