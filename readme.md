@@ -35,14 +35,18 @@ python main.py
 Esto abrirá una interfaz de Gradio en tu navegador donde podrás ajustar los valores de longitud y anchura de sépalos y pétalos para predecir la especie de la flor.
 
 ## Descripción de los Archivos
-main.py: Contiene el código principal para cargar el modelo, preprocesar los datos, y lanzar la interfaz de Gradio.
-iris.h5: Modelo preentrenado para la clasificación de las especies de Iris.
-iris.csv: Dataset de Iris utilizado para el entrenamiento y evaluación del modelo.
-requirements.txt: Lista de dependencias necesarias para ejecutar el proyecto.
-Funcionamiento del Código
+### main.py: 
+Contiene el código principal para cargar el modelo, preprocesar los datos, y lanzar la interfaz de Gradio.
+### iris.h5: 
+Modelo preentrenado para la clasificación de las especies de Iris.
+### iris.csv: 
+Dataset de Iris utilizado para el entrenamiento y evaluación del modelo.
+### requirements.txt: 
+Lista de dependencias necesarias para ejecutar el proyecto.
+## Funcionamiento del Código
 El modelo entrenado se carga desde el archivo iris.h5.
 Los datos del dataset se leen desde iris.csv y se preprocesan utilizando LabelEncoder.
 La función prediccion toma las características de entrada (longitud y anchura de sépalos y pétalos) y devuelve la especie predicha utilizando el modelo cargado.
 Se configura una interfaz de usuario con Gradio, donde los usuarios pueden ajustar los valores de las características mediante sliders y obtener la predicción de la especie en un cuadro de texto.
-Créditos
+## Créditos
 Este proyecto utiliza el dataset de Iris disponible públicamente, y se ha desarrollado utilizando bibliotecas de código abierto como TensorFlow, Gradio, Numpy, Pandas y scikit-learn.
